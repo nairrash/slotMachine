@@ -18,8 +18,8 @@ body {
     border-color: #2DBE60;
     /*top: 20%;*/
     left:25%;
-    width: 50%;
-    height: 40%;
+    width: 50vw;
+    height: 30vh;
     background: #c1f0d2;
 
 }
@@ -40,9 +40,9 @@ body {
 
     width: 25%;
     height:20vh;
-    margin:3%;
+    margin: 4%;
 
-    margin-top: 8vh;
+    /*margin-top: 8vh;*/
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 2px 7px rgba(0,0,0,.3) inset, 0 0px 1px rgba(0,0,0,.2) inset;
@@ -58,10 +58,13 @@ body {
 .reel div p {
     display: table-cell;
     text-align: center;
-    transform: translate(3vw, 8vh);
+    /*margin: 3vw 4vh;*/
+    /*padding: 2vw;*/
+    transform: translate(2.5vw, 8vh);
     white-space: nowrap;
     font-family: 'Open Sans', serif;
-    font-size: 2vh;
+    font-size: 1vw;
+    vertical-align: middle;
 
 }
 
@@ -80,6 +83,7 @@ button:focus {outline:0;}
 }
 
 .btn {
+    cursor: pointer; cursor: hand;
     /*border-radius: 2em 1em 4em / 0.5em 3em;*/
     position: relative;
     display: block;
