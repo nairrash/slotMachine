@@ -1,7 +1,7 @@
 var reels = [
-  ['tea-pot','coffee-maker','espresso-machine'],
-  ['tea-strainer','coffee-filter','espresso-tamper'],
-  ['loose-tea','coffee-grounds','espresso-beans']
+  ['tea - pot','coffee-maker','espresso-machine'],
+  ['tea - strainer','coffee-filter','espresso-tamper'],
+  ['loose - tea','coffee-grounds','espresso-beans']
 ];
 
 var reel = document.getElementsByClassName('reel'),
